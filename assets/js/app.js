@@ -64,7 +64,7 @@ d3.csv("../assets/data/data.csv").then(function(Data) {
     .attr("cy", d => yLinearScale(d.healthcare))
     .attr("r", "15")
     .attr("fill", "purple")
-    .attr("opacity", ".5");
+    .attr("opacity", ".7");
 
     // Step 6: Initialize tool tip
     // ==============================
@@ -96,7 +96,7 @@ d3.csv("../assets/data/data.csv").then(function(Data) {
     .attr("font-family", "sans-serif")
     .attr("font-size", "10px")
     .attr("text-anchor", "middle")
-    .attr("fill", "white");
+    .attr("fill", "orange");
 
 
     // Step 8: Create event listeners to display and hide the tooltip
